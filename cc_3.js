@@ -30,3 +30,13 @@ let feedback = [
 ]; //feedback from three customers
 feedback.push({customerName: `Silent Man`, feedbackText: `.....`, rating: 3}); //added new feedback
 console.log(`Customer Feedback: `, feedback); //log of all 4 feedbacks
+
+//Task 5: Inventory Management System Scenario: Stock Analysis You are developing a system to track inventory details
+let inventory = {
+    itemName: `Mahogany Apple Candle`, stockCount: 2, price: 26.95,
+    calculateTotalValue: function() {
+        return this.stockCount * this.price;
+    }
+}; //info on the item and the total value
+console.log(inventory); //inventory details
+console.log(`Total Inventory: `, inventory.calculateTotalValue()); //total value of the entire inventory stock
