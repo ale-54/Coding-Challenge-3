@@ -22,3 +22,11 @@ employee.performanceScore = 57; //Sonny Meatballs performance score went down
 employee.promotionEligible = employee.performanceScore >=90; //minimum of 90 to get promotion
 console.log(`Updated Employee: `, employee); //updated employee list
 
+//Task 4: Customer Feedback Records Scenario: Feedback Management You are collecting customer feedback data
+let feedback = [
+    {customerName: `Abyssal Black Flame Dragon`, feedbackText: `This was booty`, rating: 0},
+    {customerName: `Dog Bark`, feedbackText: `woof :D`, rating: 4},
+    {customerName: `Gordon Shark`, feedbackText: `This was such an exquisite experience, would definitely reccommend this place !!!`, rating: 5}
+]; //feedback from three customers
+feedback.push({customerName: `Silent Man`, feedbackText: `.....`, rating: 3}); //added new feedback
+console.log(`Customer Feedback: `, feedback); //log of all 4 feedbacks
